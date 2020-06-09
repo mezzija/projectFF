@@ -1,0 +1,110 @@
+@import "fonts.css";
+*{
+    margin: 0;
+}
+body{
+    font-family: "IBM Plex Sans",sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+._icon{
+    display: none;
+}
+.icon{
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*header*/
+.header{
+    background-color: #000000;
+    color: #ffffff;
+
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.header .container{
+    padding: 25px 0 25px 0;
+}
+.header__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoff{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.header__image{
+    background-image: url('../image/header_font.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+/*main*/
+.main{
+    background-color: #000000;
+}
+.main_grid{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    justify-self: center;
+    align-self: center;
+    column-gap: 100px;
+    row-gap: 60px;
+
+}
+.main .container{
+    padding: 50px 0 50px 0 ;
+}
+.main_card1{
+    background-image: url("../image/1.png");
+}
+.main_card2{
+    background-image: url("../image/2.png");
+}
+.main_card3{
+    background-image: url("../image/3.png");
+}
+.main_card4{
+    background-image: url("../image/4.png");
+}
+.main_card5{
+    background-image: url("../image/5.png");
+}
+.main_card6{
+    background-image: url("../image/6.png");
+}
+.main_img{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main_bg{
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_bg p{
+    background-color: #E5BC29;
+    padding: 10px 10px;
+    font-size: 40px;
+    color: #000000;
+    font-family: "Times New Roman",sans-serif;
+    font-weight: bold;
+}
