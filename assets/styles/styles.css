@@ -8,6 +8,9 @@ body{
     font-weight: normal;
     color: white;
 }
+a{
+    text-decoration: none;
+}
 .container{
     max-width: 1400px;
     margin: 0 auto;
@@ -67,7 +70,8 @@ body{
 
 }
 .main .container{
-    padding: 50px 0 50px 0 ;
+    padding: 50px 0;
+
 }
 .main_card1{
     background-image: url("../image/1.png");
@@ -92,6 +96,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    cursor: pointer;
 }
 .main_bg{
     background-color: rgba(0,0,0,0.4);
@@ -107,4 +112,34 @@ body{
     color: #000000;
     font-family: "Times New Roman",sans-serif;
     font-weight: bold;
+}
+/*news*/
+.news{
+    background-color: #000000;
+    font-size: 30px;
+}
+.news .container{
+    padding: 50px 0;
+    height: 1200px;
+}
+.news_inf{
+    position: relative;
+    background-color: #E6BC29;
+    color: #000000;;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    bottom: 0;
+    right: 0;
+}
+.news img{
+    width: 60%;
+}
+.news_txt{
+    width: 70%;
+}
+.news_title{
+    font-weight: bold;
+    font-size: 35px;
 }
