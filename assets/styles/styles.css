@@ -256,3 +256,36 @@ a{
 .numbers_pad{
     padding: 0 30px;
 }
+/*publication*/
+.publication{
+    background-color: #E5BC29;
+    padding: 50px 0;
+
+}
+.publication .row{
+    justify-content: space-around;
+    padding-bottom: 40px;
+    align-items: flex-start;
+}
+.publication img{
+    width: 300px;
+    padding-bottom: 30px;
+}
+.publication_title{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+.publication_button{
+    display: flex;
+    justify-content: center;
+}
+.publication p {
+    width: 300px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 200;
+}
+
