@@ -34,6 +34,9 @@ a{
     font-size: 25px;
     color: #ffffff;
 }
+.button_more:active{
+    color: #E5BC29;
+}
 
 /*header*/
 .header{
@@ -50,6 +53,9 @@ a{
 }
 .header_menu{
     color: #ffffff;
+}
+.header_active{
+    display: none;
 }
 .header__logo{
     display: flex;
@@ -70,6 +76,7 @@ a{
     justify-content: center;
     align-items: center;
 }
+
 /*nav*/
 .nav{
     background-color: #000000;
@@ -90,6 +97,7 @@ a{
     font-size: 20px;
     font-weight: 500;
     padding-bottom: 10px;
+    color: #E5BC29;
 }
 .nav_grid{
     display: grid;
@@ -160,6 +168,9 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.main a:hover p{
+    color: #ffffff;
 }
 .main_bg p{
     background-color: #E5BC29;
@@ -415,4 +426,5 @@ a{
     font-size: 40px;
     padding: 0 15px;
 }
+/*main-inf*/
 
