@@ -335,4 +335,35 @@ a{
     display: flex;
     justify-content: center;
 }
+/*footer*/
+.footer{
+    background-color: #000000;
+}
+.footer .container{
+    padding: 50px 0 ;
+}
+.footer_grid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.footer img{
+
+}
+.footer_grid div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px;
+}
+.footer_grid p{
+    margin-left: 40px;
+}
+.footer_icon{
+    display: flex;
+    justify-content: center;
+}
+.footer_icon_size{
+    font-size: 40px;
+    padding: 0 15px;
+}
 
