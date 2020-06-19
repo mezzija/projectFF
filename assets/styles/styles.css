@@ -110,6 +110,9 @@ a{
 .nav_active{
     display: none;
 }
+.nav_position a:hover{
+    font-size: 18px;
+}
 /*main*/
 .main{
     background-color: #000000;
