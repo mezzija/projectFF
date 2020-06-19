@@ -39,12 +39,17 @@ a{
 .header{
     background-color: #000000;
     color: #ffffff;
-
     font-size: 20px;
-    text-transform: uppercase;
+    position: relative;
 }
 .header .container{
     padding: 25px 0 25px 0;
+}
+.header__logo p{
+    text-transform: uppercase;
+}
+.header_menu{
+    color: #ffffff;
 }
 .header__logo{
     display: flex;
@@ -64,6 +69,46 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/*nav*/
+.nav{
+    background-color: #000000;
+    padding: 20px 0 50px 0;
+    z-index: 100;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    top: 90px;
+}
+.nav a{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 21px;
+}
+.nav p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.nav_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+}
+.nav_position{
+    display: flex;
+    flex-direction: column;
+}
+.nav_logo{
+    padding-top: 50px;
+}
+.nav_icon_size{
+    font-size: 70px;
+    padding:  0 10px;
+}
+.nav_active{
+    display: none;
 }
 /*main*/
 .main{
@@ -281,6 +326,7 @@ a{
 .publication_button{
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 .publication p {
     width: 300px;
