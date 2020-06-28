@@ -12,7 +12,7 @@ a{
     text-decoration: none;
 }
 .container{
-    max-width: 1400px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 ._icon{
@@ -65,8 +65,9 @@ a{
     align-items: center;
 }
 .logoff{
-    font-size: 40px;
-    margin-right: 20px;
+    width:80px;
+    height:50px;
+    fill:#ffffff;
 }
 .header__image{
     background-image: url('../image/header_font.png');
@@ -434,5 +435,44 @@ a{
     from{opacity: 0}
     to{opacity: 1}
 
+}
+/*page*/
+.page .container{
+    max-width: 1100px;
+    padding: 50px 0 ;
+}
+.page_name{
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.page_row{
+    display: flex;
+    padding-bottom: 100px;
+}
+.page_row img{
+    width: 400px;
+}
+.page_inf{
+    color: black;
+    padding-left: 50px;
+}
+.page_inf-title{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.page_inf-description{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.page_inf p {
+    line-height: 30px;
+    font-size: 20px;
+}
+.inf {
+    color: #000000;
+    
 }
 
