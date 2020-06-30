@@ -489,11 +489,21 @@ a{
 }
 .newsModel{
     padding: 20px 10px;
-    box-shadow: 0 0 10px 1px #000000;
-    margin-bottom: 50px;
 
+    margin-bottom: 50px;
+    position: relative;
+    display: block;
+
+}
+.newsModel:hover{
+    box-shadow: 0 0 10px 1px #000000;
 }
 .newsModel_inf{
     width: 500px;
+}
+.newsModel_button{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
 }
 
