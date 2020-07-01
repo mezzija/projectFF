@@ -38,6 +38,32 @@ a{
 .button_more:active{
     color: #E5BC29;
 }
+.youtube_button{
+    background-color: #E5BC29;
+    color: #000000;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.header_youtube svg{
+    color: #000000;
+    font-size: 40px;
+}
+.footer_youtube svg{
+    color: #000000;
+    font-size: 25px;
+}
+.header_youtube{
+    width: 57px;
+    height: 57px;
+}
+.footer_youtube{
+    width: 40px;
+    height: 40px;
+}
 
 /*header*/
 .header{
@@ -115,9 +141,10 @@ a{
 }
 .nav_logo{
     padding-top: 50px;
+    display: flex;
 }
 .nav_icon_size{
-    font-size: 70px;
+    font-size: 57px;
     padding:  0 10px;
 }
 .nav_active{
