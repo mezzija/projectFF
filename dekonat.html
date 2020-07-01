@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="shortcut icon" href="./assets/image/atom.ico" type="image/x-icon">
 </head>
 <body>
     <svg class="_icon">
@@ -65,17 +66,20 @@
         <symbol id="cross" viewBox="0 0 20 20" >
             <path fill-rule="evenodd" clip-rule="evenodd" d="M9.70711 11.1213L18 19.4142L19.4142 18L11.1213 9.70711L19.4142 1.41421L18 0L9.70711 8.29289L1.41421 0L0 1.41421L8.29289 9.70711L0 18L1.41421 19.4142L9.70711 11.1213Z" fill="white"/>
         </symbol>
+        <symbol id="youtube" viewBox="0 0 576 512">
+            <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+        </symbol>
     </svg>
 
 
-    <header class="header">
+    <header class="header animate__animated animate__fadeInDown ">
         <div class=" row container">
-            <div class="header__logo">
+            <a href="#" class="header__logo">
                 <svg class=" logoff" >
                     <use href="#logo"></use>
                 </svg>
                 <p>Физический факультет</p>
-            </div>
+            </a>
             <a  id="nav_menu" href="#" class="header_menu" >
                 <svg class="icon header_icon">
                     <use href="#menu"></use>
@@ -93,19 +97,14 @@
                         <p>О факультете</p>
                         <a href="">Общая информация</a>
                         <a href="">Деканат</a>
-                        <a href="">История факультета</a>
-                        <a href="">Кафедры</a>
-                        <a href="">Физический факультет в СМИ</a>
                         <a href="">Известные выпускники</a>
+                        <a href="">Новости</a>
                     </div>
                     <div class="nav_position">
                         <p>Поступление</p>
                         <a href="">Презентация факультета</a>
                         <a href="">Специальности</a>
                         <a href="">План приема</a>
-                        <a href="">Дни открытых дверей</a>
-                        <a href="">Олимпиада "Абитуриент БГУ"</a>
-                        <a href="">Дополнительное образование</a>
                     </div>
                     <div class="nav_position">
                         <p>Сотрудничество</p>
@@ -132,6 +131,11 @@
                             <a href="https://www.instagram.com/bsuphys/">
                                 <svg class="icon nav_icon_size"  >
                                     <use href="#inst"></use>
+                                </svg>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCnJcLDPa8bpm8Ie_RQENicA" class="youtube_button header_youtube">
+                                <svg class="icon">
+                                    <use href="#youtube"></use>
                                 </svg>
                             </a>
                         </div>
@@ -215,20 +219,20 @@
         </div>
     </section>
 
-    <footer class="footer" >
+    <footer class="footer">
         <div class="container">
             <div class="footer_grid">
                 <div>
-                    <img src="./assets/image/footer1.png" alt="">
+                    <a href="http://edu.gov.by/"><img src="./assets/image/footer1.png" alt=""></a>
                     <p>Министерство Образования РБ</p>
                 </div>
                 <div>
-                    <img src="./assets/image/footer2.png" alt="">
+                    <a href="https://bsu.by/"><img src="./assets/image/footer2.png" alt=""></a>
                     <p>Белорусский<br> государственный<br> Университет</p>
                 </div>
                 <div>
-                    <img src="./assets/image/footer3.png" alt="">
-                    <p>БРСМ БГУ <br>Физический<br> факультет</p>
+                    <a href="https://journals.bsu.by/index.php/physics/index"><img src="./assets/image/jbsu.png" alt=""></a>
+                    <p>Журнал <br>Белорусского государственного <br>университета</p>
                 </div>
                 <div>
                     <img src="./assets/image/footer4.png" alt="">
@@ -244,14 +248,19 @@
                 </div>
             </div>
             <div class="footer_icon">
-                <a href="#">
+                <a href="https://vk.com/bsuphys">
                     <svg class="icon footer_icon_size"  >
                         <use href="#vk"></use>
                     </svg>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/bsuphys/">
                     <svg class="icon footer_icon_size"  >
                         <use href="#inst"></use>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/channel/UCnJcLDPa8bpm8Ie_RQENicA" class="youtube_button footer_youtube">
+                    <svg class="icon">
+                        <use href="#youtube"></use>
                     </svg>
                 </a>
             </div>
